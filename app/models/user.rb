@@ -6,5 +6,6 @@ class User < ApplicationRecord
   def to_s
     email
   end
-
+  
+  has_many :courses
 end
